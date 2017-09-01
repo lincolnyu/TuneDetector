@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Fourier\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\qsharp\QSharp\QSharp.Scheme.Classical.Sequential\QSharp.Scheme.Classical.Sequential.csproj" />
+  </ItemGroup>
+
+</Project>
